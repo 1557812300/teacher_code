@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		span,a,b,i{
+			width:100px;
+			height:100px;
+			background:pink;
+			margin:30px;
+		}
+		span{
+			position: absolute;
+		}
+		a{
+			position: fixed;
+		}
+		b{
+			position: relative;
+		}
+		i{
+			position: sticky;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+		行内元素添加什么属性后可定义宽高：
+			1.添加float的值不为none。  
+			2.display的值为block或inline-blcok。  
+			3.position的值为absolute或fixed
+	 -->
+	 <span>span</span>
+	 <a href="">a</a>
+	 <b>b</b>
+	 <i>i</i>
+</body>
+</html>

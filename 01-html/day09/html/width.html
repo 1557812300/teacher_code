@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		div,p,h1,h2{
+			height:100px;
+			margin:20px 0;
+		}
+		div{
+			background:red;
+			position: relative;
+		}
+		p{
+			background:blue;
+			position: sticky;
+		}
+		h1{
+			background:yellow;
+			position: absolute;
+		}
+		h2{
+			background:skyblue;
+			position: fixed;
+		}
+		/*
+		未定义宽度块元素添加什么属性后，宽度为0px
+		1.添加float的值不为none时。
+		2.display的值为inline。
+		3.添加position的值为absolute或fixed。
+		 */
+	</style>
+</head>
+<body>
+	<div>div</div>
+	<p>p</p>
+	<h1>h1</h1>
+	<h2>h2</h2>
+</body>
+</html>

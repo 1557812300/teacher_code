@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*header*/
+#headerbox #header{
+	width:966px;
+	height:100px;
+	margin:0 auto;
+}
+#headerbox #header .logo{
+	float:left;
+	margin-top:35px;
+}
+#headerbox #header .search{
+	float:right;
+	width:226px;
+	height:26px;
+	border:1px solid #999;
+	margin-top:38px;
+}
+#headerbox #header .search input{
+	float:left;
+	height:26px;
+	border:none;
+}
+#headerbox #header .search .txt{
+	font-size:10px;
+	background:#efefef;
+	text-indent:14px;
+	width:194px;
+}
+#headerbox #header .search .btn{
+	width:32px;
+	background:url(../images/logo_06.jpg) no-repeat center #efefef;
+}

@@ -1,0 +1,22 @@
+div{
+	width:100px;
+	height:100px;
+	background:red;
+	float:left;
+	margin:20px;
+}
+.div1,.div2{
+	text-indent:-20px;
+}
+.div3{
+	letter-spacing:10px;
+}
+.div4,.div5{
+	word-spacing: 20px;
+}
+.div6{
+	text-transform:uppercase;
+}
+.div7{
+	text-transform: capitalize;
+}

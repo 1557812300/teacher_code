@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+div,p,form,h1,li{
+	width:100px;
+	height:100px;
+	background:red;
+	margin:50px;
+	display: list-item;
+/*	display: inline-block;
+*/}
+h1{
+	font-size:16px;
+}
+/*div{
+	width:200px;
+	height:200px;
+	background:gold;
+	display: none;
+}
+body:hover div{
+	display: block;
+}
+*/
+
+span,i,em,a{
+	width:150px;
+	height:150px;
+	background:pink;
+	display: inline-block;
+	margin:20px;
+}

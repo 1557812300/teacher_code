@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		.box{
+			width:500px;
+			height:500px;
+			background:red;
+		}
+		.box p{
+			width:100px;
+			height:100px;
+			background:gold;
+		}
+		.box h2{
+			width:100px;
+			height:100px;
+			background:pink;
+			margin:50px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+		当父元素和第一个子元素没有添加float属性时，给第一个子元素添加margin-top，会传递给父元素。
+	 -->
+	 <div class="box">
+	 	<p>1</p>
+	 	<h2>2</h2>
+	 </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	width:200px;
+	height:200px;
+	border:2px solid #000;
+	float:left;
+	margin:20px;
+	background:gold url(../images/s3.png) no-repeat;
+}
+.box1,.box2,.box3{
+	padding:20px;
+	width:160px;
+	height:160px;
+}
+.box4{
+	padding:10px 20px 30px 40px;
+}
+.box5{
+	padding-left:50px;
+}
+.box6{
+	padding:0 0 50px 0;
+}

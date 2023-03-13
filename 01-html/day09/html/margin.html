@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0
+		}
+		div,p,h1,h2{
+			width:500px;
+			height:100px;
+			background:skyblue;
+			margin:20px auto;
+		}
+		div{
+			position: relative;
+		}
+		p{
+			position: sticky;
+		}
+		h1{
+			position: fixed;
+		}
+		h2{
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+<!-- 
+		margin:0 auto添加什么属性后无效
+		1.float的值不为none时。
+		2.position的值为absolute或fixed。
+ -->
+	<div>div</div>
+	<p>p</p>
+	<h1>h1</h1>
+	<h2>h2</h2>
+</body>
+</html>

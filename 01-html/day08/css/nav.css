@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	width:500px;
+	height:30px;
+	background:#999;
+	margin:200px auto;
+}
+ul li{
+	float:left;
+	list-style: none;
+	width:100px;
+	height:30px;
+}
+ul li a{
+	display: block;
+	width:99px;
+	height:30px;
+	border-right:1px  solid #fff;
+	text-decoration: none;
+	color:#000;
+	text-align:center;
+	line-height:30px;
+}
+ul li ol{
+	display: none;
+	width:500px;
+}
+ul li:hover ol{
+	display: block;
+}
+ul li ol li a{
+	background:gold;
+}

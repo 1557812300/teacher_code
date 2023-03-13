@@ -1,0 +1,29 @@
+		*{
+			margin:0;
+			padding:0;
+		}
+		.logobox{
+			width:800px;
+			height:100px;
+			background:pink;
+			margin:200px auto;
+		}
+		.logobox a{
+			float:left;
+			width:92px;
+			height:92px;
+			background:#ccc;
+			margin:4px;
+			text-align:center;
+		}
+		.logobox a:hover{
+			background:url(../images/bg.png);
+		}
+		.logobox a img{
+			vertical-align: middle;
+		}
+		.logobox a span{
+			display: inline-block;
+			height:92px;
+			vertical-align: middle;
+		}

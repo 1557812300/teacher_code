@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+}
+.div1{
+	width:100px;
+	height:100px;
+	background:red;
+	float:right;
+	clear:both;
+}
+.div2{
+	width:150px;
+	height:150px;
+	background:gold;
+	float:right;
+	clear:both;
+}
+.div3{
+	width:200px;
+	height:200px;
+	background:skyblue;
+	float:right;
+	clear:right;
+}

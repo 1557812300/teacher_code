@@ -1,0 +1,370 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*header*/
+#headerbox #header{
+	width:966px;
+	height:100px;
+	margin:0 auto;
+}
+#headerbox #header .logo{
+	float:left;
+	margin-top:35px;
+}
+#headerbox #header .search{
+	float:right;
+	width:226px;
+	height:26px;
+	border:1px solid #999;
+	margin-top:38px;
+}
+#headerbox #header .search input{
+	float:left;
+	height:26px;
+	border:none;
+}
+#headerbox #header .search .txt{
+	font-size:10px;
+	background:#efefef;
+	text-indent:14px;
+	width:194px;
+}
+#headerbox #header .search .btn{
+	width:32px;
+	background:url(../images/logo_06.jpg) no-repeat center #efefef;
+}
+/*nav*/
+#navbox{
+	background:#303030;
+}
+#navbox #nav{
+	width:966px;
+	height:60px;
+	margin:0 auto;
+}
+#navbox #nav li{
+	float:left;
+	list-style:none;
+}
+#navbox #nav li a{
+	text-decoration: none;
+	color:#fff;
+	display:block;
+	width:117px;
+	height:60px;
+	border-left:1px solid #fff;
+	text-align:center;
+	line-height:60px;
+}
+#navbox #nav li .firsta{
+	padding-left:11px;
+	border-left:none;
+}
+/*banner*/
+#banner{
+	height:464px;
+}
+#banner a{
+	display: block;
+	height:100%;
+}
+#banner a img{
+	width:100%;
+	height:100%;
+}
+/*content1*/
+#content1{
+	width:966px;
+	height:270px;
+	margin:0 auto;
+}
+#content1 .ct1left{
+	width:484px;
+	height:270px;
+	float:left;
+}
+#content1 .ct1left h2{
+	height:41px;
+	font-size:18px;
+	font-weight:500;
+	line-height:18px;
+	padding-top:35px;
+}
+#content1 .ct1left ul li{
+	list-style:none;
+}
+#content1 .ct1left ul li a{
+	text-decoration: none;
+	display: block;
+	overflow:hidden;
+	line-height:24px;
+	padding:0 28px 0 12px;
+	background:url(../images/dian.jpg) no-repeat left center;
+}
+#content1 .ct1left ul li a span{
+	font-size:12px;
+	color:#515151;
+	float:left;
+}
+#content1 .ct1left ul li a i{
+	font-size:10px;
+	color:#898989;
+	font-style:normal;
+	float:right;
+}
+#content1 .ct1center{
+	width:240px;
+	height:240px;
+	background:#f1f1f1;
+	float:left;
+}
+#content1 .ct1center h2{
+	font-size:18px;
+	line-height:18px;
+	font-weight:500;
+	padding:35px 0 40px 20px;
+}
+#content1 .ct1center a{
+	text-decoration: none;
+	display: block;
+	color:#000;
+	font-size:12px;
+	line-height:12px;
+	padding-left:20px;
+}
+#content1 .ct1center a b,#content1 .ct1center a span{
+	display: block;
+}
+#content1 .ct1center a .b2{
+	margin:12px 0 28px 0;
+}
+#content1 .ct1center a .span1{
+	margin-bottom:12px;
+}
+#content1 .ct1right{
+	width:242px;
+	height:240px;
+	background:#fbfbfb url(../images/xm_03.jpg) no-repeat right bottom;
+	float:left;
+}
+#content1 .ct1right h2{
+	font-size:18px;
+	line-height:18px;
+	font-weight:500;
+	padding:35px 0 25px 25px;
+}
+#content1 .ct1right span,#content1 .ct1right i{
+	display: block;
+	font-size:12px;
+	line-height:12px;
+	padding-left:25px;
+}
+#content1 .ct1right i{
+	font-style:normal;
+	margin:12px 0 28px 0;
+}
+#content1 .ct1right a{
+	display: block;
+	width:66px;
+	height:20px;
+	background:#afafaf;
+	font-size:8px;
+	line-height:20px;
+	text-align:center;
+	text-decoration: none;
+	color:#fff;
+	margin-left:25px;
+}
+/*title2*/
+.title2{
+	width:966px;
+	margin:0 auto;
+	font-size:18px;
+	line-height:18px;
+	font-weight:500;
+	padding-bottom:18px;
+}
+/*content2*/
+#content2{
+	width:966px;
+	height:240px;
+	margin:0 auto;
+}
+#content2 a{
+	width:210px;
+	float:left;
+	margin-right:41px;
+	text-decoration: none;
+	color:#000;
+	font-size:12px;
+	line-height:12px;
+}
+#content2 .lasta{
+	margin:0;
+}
+#content2 a img{
+	vertical-align: middle;
+}
+#content2 a span{
+	display: block;
+	margin:18px 0 12px 0;
+}
+#content2 a i{
+	display: block;
+	font-style:normal;
+	width:150px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+/*bottom*/
+#bottombox{
+	background:#e5e5e5;
+}
+#bottombox #bottom{
+	width:966px;
+	height:250px;
+	margin:0 auto;
+}
+#bottombox #bottom .bt1{
+	width:500px;
+	height:250px;
+	float:left;
+}
+#bottombox #bottom .bt1 h2{
+	width:442px;
+	border-bottom:1px solid #999;
+	font-size:16px;
+	line-height:16px;
+	font-weight:normal;
+	padding:30px 0 11px 11px;
+}
+#bottom .bt1 ul{
+	overflow:hidden;
+}
+#bottom .bt1 ul li{
+	list-style:none;
+	float:left;
+	margin-top:14px;
+}
+#bottom .bt1 ul .li2{
+	margin:14px 70px 0 80px;
+}
+#bottom .bt1 ul li a{
+	display: block;
+	text-decoration: none;
+	font-size:12px;
+	color:#000;
+	line-height:24px;
+	background:url(../images/jt_03.jpg) no-repeat left center;
+	padding-left:12px;
+}
+#bottom .bt1 ul .li1 a{
+	padding-left:18px;
+	background-position:6px center;
+}
+#bottombox #bottom .bt2{
+	width:200px;
+	height:250px;
+	float:left;
+}
+#bottombox #bottom .bt2 h2{
+	width:142px;
+	border-bottom:1px solid #999;
+	font-size:16px;
+	line-height:16px;
+	font-weight:normal;
+	padding:30px 0 11px 11px;
+}
+#bottom .bt2 ul{
+	overflow:hidden;
+}
+#bottom .bt2 ul li{
+	list-style:none;
+	margin-top:14px;
+}
+#bottom .bt2 ul li a{
+	display: block;
+	text-decoration: none;
+	font-size:12px;
+	color:#000;
+	line-height:24px;
+	background:url(../images/jt_03.jpg) no-repeat 10px center;
+	padding-left:24px;
+}
+
+#bottombox #bottom .bt3{
+	width:266px;
+	height:250px;
+	float:left;
+}
+#bottombox #bottom .bt3 h2{
+	border-bottom:1px solid #999;
+	font-size:16px;
+	line-height:16px;
+	font-weight:normal;
+	padding:30px 0 11px 11px;
+}
+#bottombox #bottom .bt3 a{
+	display: block;
+	margin:16px 0 0 32px;
+}
+/*footer*/
+#footer{
+	width:966px;
+	height:84px;
+	margin:0 auto;
+}
+#footer .ft1{
+	float:left;
+	margin-top:25px;
+}
+#footer .ft1 a{
+	float:left;
+	text-decoration: none;
+	font-size:12px;
+	color:#000;
+	line-height:12px;
+	border-right:1px solid #999;
+	padding:0 8px;
+}
+#footer .ft1 .lasta{
+	border:none;
+}
+#footer .ft2{
+	float:right;
+	font-size:12px;
+	line-height:12px;
+	margin-top:25px;
+}
+#footer .ft2 span{
+	float:left;
+}
+#footer .ft2 i{
+	float:left;
+	font-style:normal;
+	margin-left:16px;
+}
+#footer .ft2 a{
+	float:left;
+	width:16px;
+	height:16px;
+	margin-right:8px;
+}
+#footer .ft2 a:nth-of-type(1){
+	width:19px;
+	background:url(../images/icon_03.jpg) no-repeat center;
+}
+#footer .ft2 a:nth-of-type(2){
+	background:url(../images/icon_05.png) no-repeat center;
+}
+#footer .ft2 a:nth-of-type(3){
+	background:url(../images/icon_07.jpg) no-repeat center;
+}
+#footer .ft2 a:nth-of-type(4){
+	background:url(../images/icon_09.jpg) no-repeat center;
+}
+#footer .ft2 a:nth-of-type(5){
+	background:url(../images/icon_11.jpg) no-repeat center;
+}

@@ -1,0 +1,35 @@
+div{
+	width:150px;
+	height:150px;
+	background:red;
+	float:left;
+	margin:10px;
+}
+.div1{
+	font-size:9pt;
+	color:#0000ff;
+}
+.div2{
+	font-size:12px;
+	color:blue;
+}
+.div3{
+	font-size:0.75em;
+	color:rgb(0,0,255);
+}
+.div4{
+	font-size:1em;
+	font-family:"宋体";
+}
+.div5{
+	font-size:20px;
+}
+.div6{
+	font-family:"kaiti";
+}
+.div7{
+	font-family:"Times New Roman","楷体","宋体";
+}
+.div8{
+	font-family:Arial;
+}

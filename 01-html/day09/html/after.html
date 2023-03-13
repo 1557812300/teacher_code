@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		div{
+			width:900px;
+			height:500px;
+			background:red;
+			margin:0 auto;
+			position: relative;
+		}
+		div::after{
+			content:"就离开健康" url(../images/s3.png);
+/*			content:"我在后边了";
+			content:url(../images/s4.png);
+*/		
+			display: block;
+			width:200px;
+			height:200px;
+			background:skyblue;
+			position: absolute;
+			top:0;
+			left:0;
+			margin:200px;
+		}
+		div::before{
+			content:"前边李";
+			display: block;
+			width:100px;
+			height:100px;
+			background:yellow;
+			position: absolute;
+			top:0;
+			right:0;
+		}
+	</style>
+</head>
+<body>
+	<div>尽快了解
+		<p style="width:80px;height:80px;background:gold;"></p>
+	</div>
+</body>
+</html>
