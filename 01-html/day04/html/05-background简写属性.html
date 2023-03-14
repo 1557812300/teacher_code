@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 2000px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 2px solid palevioletred;
+        }
+        .div1{
+            background-color: gold;
+            background-image: url(../images/s1.png);
+            background-repeat: no-repeat;
+            /* 位置 */
+            background-position: center;
+            /* 跟随滚动 */
+            background-attachment: scroll;
+        }
+        .div2{
+            background: palegoldenrod url(../images/s2.png) no-repeat left fixed;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+</body>
+</html>

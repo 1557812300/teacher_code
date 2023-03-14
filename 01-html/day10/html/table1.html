@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		table{
+			width:600px;
+			height:150px;
+			margin:100px auto;
+		}
+		table .t1{
+			background:skyblue;
+			text-align:center;
+			color:#fff;
+		}
+		table .pink{
+			background:pink;
+		}
+		table .blue{
+			background:blue;
+			border-right:3px solid #fff;
+			border-left:3px solid #fff;
+		}
+		table tr td{
+			width:150px;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<table rules="groups">
+		<colgroup span="1" class="pink"></colgroup>
+		<colgroup span="2" class="blue"></colgroup>
+		<colgroup span="1" class="pink"></colgroup>
+		<thead>
+			<tr class="t1">
+				<td colspan="4">通讯录</td>
+			</tr>
+			<tr>
+				<td>姓名</td>
+				<td>电话</td>
+				<td>邮编</td>
+				<td>传真</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>常有理</td>
+				<td>13730978102</td>
+				<td>266000</td>
+				<td>Qingdao</td>
+			</tr>
+			<tr>
+				<td>常有理</td>
+				<td>13730978102</td>
+				<td>266000</td>
+				<td>Qingdao</td>
+			</tr>
+			<tr>
+				<td>常有理</td>
+				<td>13730978102</td>
+				<td>266000</td>
+				<td>Qingdao</td>
+			</tr>
+			<tr>
+				<td>常有理</td>
+				<td>13730978102</td>
+				<td>266000</td>
+				<td>Qingdao</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

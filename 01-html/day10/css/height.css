@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clearfn::after{
+	content:"发的啥地方发斯蒂芬";
+	display: block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.clearfn{
+	zoom:1;
+}
+#header{
+	width:1000px;
+	background:red;
+	margin:0 auto;
+}
+#header p{
+	width:150px;
+	height:150px;
+	background:gold;
+	float:left;
+}
+/*nav*/
+.nav{
+	width:1000px;
+	background:pink;
+	margin:0 auto;
+}
+.nav li{
+	float:left;
+	height:50px;
+}
+/*content*/
+.content{
+	width:1000px;
+	background:skyblue;
+	margin:0 auto;
+}
+.content h1{
+	width:200px;
+	height:200px;
+	background:yellowgreen;
+	float:left;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body11{
+    margin:60px auto;
+    width: 900px;
+    height: 600px;
+    background-color: aquamarine;
+}
+header{
+    width: 900px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+header div{
+    float: left;
+}
+.box1{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: #FA14F5;
+}
+
+.box3{
+    width: 120px;
+    height: 100px;
+    background-color: #155FF7;
+}
+.box4{
+    width: 135px;
+    height: 100px;
+    background-color: #39F81F;
+}
+.box5{
+    width: 145px;
+    height: 100px;
+    background-color: #000000;
+}
+.box6{
+    width: 150px;
+    height: 100px;
+    background-color: #EFEC0C;
+}
+.center{
+    width: 900px;
+    height: 440px;
+}
+/* 中间-左侧大盒子 */
+.left{
+    float: left;
+    width: 630px;
+    height: 440px;
+    background-color: #EFEC0C;
+}
+.insideHeader{
+    width: 630px;
+    height: 130px;
+    background-color: #A3164D;
+}
+.insiderLeft{
+    width: 195px;
+    height: 310px;
+    float: left;
+    background-color: #86614C;
+}
+
+.insiderLeftTop{
+    height: 150px;
+    background-color: #385C61;
+}
+.insiderLeftBottom{
+    height: 160px;
+    background-color: #DBEAE0;
+}
+.insiderRight1{
+    height: 90px;
+    background-color: #BE06F3;
+}
+.insiderRight2{
+    height: 160px;
+    background-color: #0FDDF2;
+}
+.insiderRight3{
+    height: 60px;
+    background-color: #DF5912;
+}
+/* 中间-右侧大盒子 */
+.right{
+    float: right;
+    width: 270px;
+    height: 440px;
+    background-color: #155FF7;
+}
+
+.rightTop{
+    width: 270px;
+    height: 190px;
+    background-color: #39F81F;
+}
+.rightBottom{
+    width: 270px;
+    height: 250px;
+    background-color: #86614C;
+}
+footer{
+    height: 60px;
+    background-color: #928F02;
+}

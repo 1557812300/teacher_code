@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            float: left;
+        }
+        p{
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+            float: left;
+        }
+        h2{
+            width: 50px;
+            height: 60px;
+            background-color: palevioletred;
+            /* float: left; */
+        }
+        .box1{
+            width: 300px;
+            height: 200px;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.f1aot属性使用原则
+        1-1.兄弟元素自上而下显示，不需要添加f1aot
+        1-2.兄弟元素在一行上显示。给兄弟元素都添加flaot.
+        1-3.给添加f1oat的元素添加父元素。 
+    -->
+    <h1 class="box1">
+        <div>div</div>
+        <p>p</p>
+    </h1>
+    
+    <h2>h2</h2>
+</body>
+</html>

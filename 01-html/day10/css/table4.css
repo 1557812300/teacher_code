@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+table{
+	width:360px;
+	height:90px;
+	border:1px solid #000;
+	margin:100px auto;
+	border-collapse: collapse;
+}
+table tr td{
+	border:1px solid #000;
+	width:120px;
+	height:30px;
+}
+/*t2*/
+.t2{
+	border:5px solid #ccc;
+}
+/*t3*/
+.t3{
+	border:5px double #ccc;
+}
+/*t4*/
+.t4{
+	border:none;
+	border-collapse: separate;
+	border-spacing:15px;
+}
+/*t5*/
+.t5{
+	border:none;
+}
+.t5 tr td{
+	border:none;
+	border-bottom:1px solid #000;
+}
+/*t6*/
+.t6{
+	width:200px;
+	height:200px;
+	border:5px solid #ccc;
+	border-collapse: separate;
+	padding:10px;
+	empty-cells: hide;
+}
+.t6 tr td{
+	background:skyblue;
+	border:none;
+}
